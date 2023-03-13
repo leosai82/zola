@@ -2,7 +2,7 @@
 #
 # To get started with Gatsby see: https://www.gatsbyjs.com/docs/quick-start/
 #
-name: Deploy Gatsby site to Pages
+name: Install zola
 
 on:
   # Runs on pushes targeting the default branch
@@ -35,3 +35,5 @@ jobs:
     steps:
       - name: Install development tools
         uses: taiki-e/install-action@v2.4.2
+        with:
+          tool: zola
